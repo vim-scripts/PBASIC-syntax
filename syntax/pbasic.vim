@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:	PBASIC
 " Maintianer:	Nicholas De Cicco
-" Last Change:	Thursday, 21 May 2009
+" Last Change:	Sunday, 6 September 2009
 " Remark:	For PBASIC files.
 
 " =============================================================================
@@ -73,4 +73,5 @@ syntax match Function /^[^'"]*:/
 syntax match Comment /'.*$/
 
 syntax match PreProc /'[\t ]*{[\t ]*\$STAMP[\t ]\+BS\(1\|2e\?\|2p[ex]\?\|2sx\)[\t ]*}/
-syntax match PreProc /'[\t ]*{[\t ]*\$PBASIC[\t ]\+\(1.0\|2.[05]\)\|PORT[\t ]\+COM[0-9][\t ]*}/
+syntax match PreProc /'[\t ]*{[\t ]*\$PBASIC[\t ]\+\(1.0\|2.[05]\)[\t ]*}/
+syntax match PreProc /'[\t ]*{[\t ]*\$PORT[\t ]\+COM[0-9][\t ]*}/
