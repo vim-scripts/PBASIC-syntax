@@ -66,7 +66,7 @@ syntax keyword Character CRSRXY CRSRLF CRSRRT CRSRUP CRSRDN CRSRX CRSRY
 syntax match PreProc /#ERROR/
 syntax match Define /#DEFINE.*$/
 syntax match PreCondit /#\(IF.*#THEN\|SELECT.*$\|CASE.*$\)/
-syntax match PreCondit /#\(ELSE\|ENDIF\|ENDSELECT\)/
+syntax match PreCondit /#\(ELSE\(IF.*#THEN\)\?\|ENDIF\|ENDSELECT\)/
 
 syntax match String /"[^"]*"/
 syntax match Function /^[^'"]*:/
